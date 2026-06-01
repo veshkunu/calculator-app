@@ -1,0 +1,31 @@
+body{
+    background-color: #E2F6FF;
+}
+
+.button-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    background-color: #3B4454;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}       
+
+.calculator{
+    width:300px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: #3B4454;
+    border-radius:10px;
+    box-shadow: #E2F6FF;
+}
+
+.display input{
+    width:50%;
+}
