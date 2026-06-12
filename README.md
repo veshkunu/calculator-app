@@ -131,7 +131,7 @@ calculator-app/
 
 ## Live Demo
 
-*Add deployed GitHub Pages link here.*
+https://veshkunu.github.io/calculator-app/
 
 ---
 
