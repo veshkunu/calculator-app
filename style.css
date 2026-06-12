@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
     background-color: #f3efe6;
     background-image:
@@ -106,9 +111,11 @@ button:active{
         width:80%;
         max-width:300px;
         margin:auto;
+        padding:15px;
     }
     button{
         height:50px;
+        width:100%;
     }
     body{
         min-height: 100vh;
@@ -116,5 +123,11 @@ button:active{
     .display input{
         width:100%;
         box-sizing:border-box;
+    }
+    .button-container{
+        gap:8px;
+    }
+    body{
+        overflow-x:hidden;
     }
 }
